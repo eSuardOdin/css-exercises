@@ -8,6 +8,11 @@ body, html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: 24vw 72vw;
+  grid-template-rows:  12vh 12vh 60vh 12vh;
+  gap: 15px;
 }
 
 .container div {
